@@ -1,0 +1,31 @@
+Brennan Fowler
+ - implemented favouriting system in the GUI
+ - improved addTag and removeTag interfaces in the GUI
+ - rewrote javadoc and refactored classes in Application package
+ - changed directory selection technique in the GUI
+ - completely redesigned UML diagram
+ - added preview photos to list view in the GUI
+ - overhauled photo actions menu in the GUI
+
+Finnbarr O'Callahan
+ - Created and implemented the LoggerHandler class.
+ - Overhauled name restoration to fix bugs and allow persistence over
+   program exit & restart.
+ - Implemented recursive photo searching to scan a "root" directory
+ - Implemented unique name generation for duplicate photos
+ - Contributed to JUnit testing for backend code
+
+Christopher Chiu
+  - Implemented favouriting system in backend so that favouriting will persist upon closing application
+  - Created ReadFileHandler class
+  - Reorganized code in PhotoManager and Photo to different classes  so the classes will follow SOLID design principles
+  - Fixed up javadoc in PhotoManaging package
+  - Made part of JUNIT testing for PhotoManager/Photo
+
+Thomas Connolly
+- Created helper methods for the GUI of the program such as "setStage" and "errorMessage"
+- Reformatted the GUI for many of the buttons and the windows they open to reduce the number of buttons
+- Added tooltips for all the buttons to improve the intuitiveness of the program.
+- Made improvements to the GUI of many of the windows such as changing ChoiceBoxes to ListViews and resizing objects and
+windows.
+- Fixed bugs in the functionality of the GUI such as the "Add Tag" and "Remove Tag" lists not being updated.

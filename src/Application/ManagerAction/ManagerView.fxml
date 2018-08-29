@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<GridPane fx:controller="Application.ManagerAction.ManagerController"
+          xmlns:fx="http://javafx.com/fxml" alignment="top_left" hgap="10" vgap="10">
+    <padding>
+        <Insets top="25" right="25" bottom="10" left="25"/>
+    </padding>
+
+    <Text text="Photo Manager Actions (for entire directory):"
+          GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"/>
+    <Button text="Manage Tags" onAction="#handleOpenTagManager" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <tooltip>
+            <Tooltip text="To add and remove tags from the master list of tags."/>
+        </tooltip>
+    </Button>
+    <Button text="View Name Change Log" onAction="#handleViewNamesAction"
+            GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <tooltip>
+            <Tooltip text="To open the file containing the previous names to all the photos in the directory."/>
+        </tooltip>
+    </Button>
+
+</GridPane>

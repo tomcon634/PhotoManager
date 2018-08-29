@@ -1,0 +1,11 @@
+First, navigate to the src directory of the project.
+The path should look something like: .../group_0533/phase1/src
+
+Then, run the following commands:
+javac */*/*/*.java
+javac Application/Main.java
+java -cp .:lib/junit.jar:lib/junit-4.12.jar Application.Main
+
+We realize that the use of asterisks in the above command isn't great practice, but since we utilize pop-ups in our
+system which aren't directly connection to Application.Main, this was the only command that compiled all java classes
+correctly.

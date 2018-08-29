@@ -1,0 +1,25 @@
+TO IMPLEMENT:
+-------------
+
+- Adding an illegal tag simply fails and does not throw exception;
+  Any effect on UI?
+
+- Should "Restore Name" list duplicates to be truly accurate,
+  or delete them to be convenient?
+
+- REFORMAT all code before final push
+
+- JUnit testing for 2 backend classes
+  *getter/setter methods included
+
+- Improve Javadoc for all code
+
+######################################################################################
+
+BUG LIST:
+---------
+
+######################################################################################
+
+PHASE 2 UPDATED SPECIFICATIONS:
+-------------------------------
